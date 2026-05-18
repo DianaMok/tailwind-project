@@ -1,22 +1,59 @@
-📦 Как создать package.json
+# Tailwind Project
 
-В корне проекта открыть терминал и выполнить:
+Responsive landing page built with HTML, SCSS/CSS and JavaScript.
 
-npm init -y
+## Live Demo
 
-Это создаст файл package.json.
+The live version will be available here after GitHub Pages setup:
 
-🔧 Добавить команду для SASS
+https://dianamok.github.io/tailwind-project/
 
-В файле package.json найти "scripts" и добавить туда:
+## Technologies
 
-"scripts": {
-"sass": "sass css:css --style=expanded --watch",
-"test": "echo \"Error: no test specified\" && exit 1"
-}
+- HTML5
+- SCSS / CSS3
+- JavaScript
+- Responsive layout
+- Git / GitHub
 
-Теперь запуск компиляции:
+## Project Structure
 
+````text
+.
+├── index.html
+├── css/
+├── images/
+├── pages/
+├── scripts/
+├── package.json
+└── README.md
+
+## How to View the Project
+
+The easiest way is to open the Live Demo link above.
+
+To run the project locally:
+
+1. Download or clone this repository.
+2. Open the project folder in VS Code.
+3. Open `index.html` with Live Server.
+
+## SCSS Compilation
+
+If you want to edit SCSS files, install dependencies:
+
+```bash
+npm install
+````
+
+Then run Sass watcher:
+
+```bash
 npm run sass
+```
 
-После запуска терминал будет показывать, что Sass следит за всеми .scss файлами и автоматически создаёт .css файлы.
+Sass will watch `.scss` files and automatically create/update `.css` files.
+
+## Description
+
+This is a static responsive landing page created as a portfolio practice project.
