@@ -1,0 +1,133 @@
+/* COLORS */
+$color-white: #fff;
+$color-black: #000;
+$color-snow: #fdf8f6;
+$color-baby-powder: #fffefc;
+$color-erie-black: #062433;
+
+$color-anti-flash-white: #f0f1f6;
+$color-blue-pigment: #36398e;
+$color-cultured: #f6f6f6;
+$color-strong-gray: #3a3a3a;
+$colo-storm-dust: #626262;
+$color-concrete: #f2f2f2;
+$color-pearl-black: #2f2f2f;
+$color-dark-heather-gray: #494949;
+
+$color-blue: #0f1150;
+$color-green-pantone: #009f3c;
+$color-hint-of-red: #f9f9f9;
+
+/* COLORS BY USAGE */
+
+$color-border: #777;
+$color-error: #f44336;
+
+/* GRADIENTS */
+$gradient-btn-blue: linear-gradient(
+	to right,
+	#00baff 0%,
+	#3ddafe 50%,
+	#00baff 100%
+);
+$gradient-hot-blue: linear-gradient(90deg, #7098ff, #5c80ff, #5081ff, #436cfe);
+$gradient-icon-orange: linear-gradient(to top, #f45f85 0%, #ea8916 100%);
+$gradient-btn-orange: linear-gradient(to right, #ea8916 0%, #f45f85 100%);
+$gradient-btn-green-blue: linear-gradient(to right, #5fd568 0%, #1ee3d7 150%);
+$gradient-btn-plain-green: linear-gradient(to right, #15c277 0%, #5fd568 200%);
+$gradient-btn-plain-fuchsia: linear-gradient(
+	to right,
+	#e5055a 0%,
+	#f45f85 200%
+);
+$gradient-btn-midnight: linear-gradient(
+	to right,
+	#8e34e8 0%,
+	#75009e 50%,
+	#8e34e8 100%
+);
+
+$gradient-white: linear-gradient(#fff 0 0);
+$gradient-port-gore: linear-gradient(to left, #2d244a 0%, #20243d 100%);
+$gradient-light-blue: linear-gradient(to right, #3ddafe 0%, #00baff 100%);
+$gradient-metallic-green-left: linear-gradient(
+	to left,
+	rgba(37, 115, 20, 40%) 0%,
+	rgba(41, 115, 20, 0%) 100%
+);
+$gradient-metallic-green-right: linear-gradient(
+	to right,
+	rgba(37, 115, 20, 40%) 0%,
+	rgba(41, 115, 20, 0%) 100%
+);
+$gradient-black-left: linear-gradient(
+	to left,
+	$color-black 0%,
+	rgba(0, 0, 0, 0%) 100%
+);
+$gradient-black-right: linear-gradient(
+	to right,
+	$color-black 0%,
+	rgba(0, 0, 0, 0%) 100%
+);
+$gradient-black-top: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0%) 100%);
+$gradient-lavender: linear-gradient(90deg, #b270ff, #a759ff, #a354ff, #9b44ff);
+$gradient-persian-pink: linear-gradient(
+	180deg,
+	#f09,
+	#e60058,
+	#f20086,
+	#db0049
+);
+$gradient-old-lavender: linear-gradient(
+	180deg,
+	#90f,
+	#5800e6,
+	#8600f2,
+	#4900db
+);
+$gradient-old-red: linear-gradient(180deg, #f00, #e60000, #f20000, #db0000);
+
+/* SHADOWS */
+$shadow-button: 0 10px 20px #9ae9fc;
+$shadow-text-dark: 0 1px 3px rgba(0, 0, 0, 70%);
+$shadow-text-light: 0 1px 3px rgba(255, 255, 255, 70%);
+// $shadow-box-inset-light: inset 0 0 0 3px $color-bright-gray;
+
+/* SPACES */
+$golden-spacing: 20px;
+$golden-spacing-small: $golden-spacing * 0.75;
+$golden-spacing-wide: $golden-spacing * 1.75;
+$content-max-width: 1610px !default;
+
+// Max width of all header, banners, widgets, etc. It can be wider then page section content.
+$page-max-width: 1280px !default;
+// Max width of content in page section.
+$content-min-width: 960px !default;
+
+// Notation of spaces for global usage (padding, margin):
+// $gap-<size> is inner space (e.g. padding), defaults is $gap
+$gap-xl: 30px !default;
+$gap-lg: 20px !default;
+$gap: 10px !default;
+$gap-md: 5px !default;
+$gap-sm: 2px !default;
+$gap-xs: 1px !default;
+
+// Notation of gutter by row and column:
+// $<row|column>-gap-<size> is outer space (e.g. margin), defaults is <row|column>-gap
+//
+// Space between items in row container.
+$row-gap-xl: 30px !default;
+$row-gap-lg: 20px !default;
+$row-gap: 10px !default;
+$row-gap-md: 5px !default;
+$row-gap-sm: 2px !default;
+$row-gap-xs: 1px !default;
+// Space between items in column container.
+$column-gap-xl: 30px !default;
+$column-gap-lg: 20px !default;
+$column-gap: 10px !default;
+$column-gap-md: 5px !default;
+$column-gap-sm: 2px !default;
+$column-gap-xs: 1px !default;
